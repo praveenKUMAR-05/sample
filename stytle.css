@@ -1,0 +1,19 @@
+.a{
+        background-color: rgb(157, 142, 164);
+        color: blue;
+        text-align: center;
+        font-family: verdana;
+        font-size: 20px;
+        border: 2px solid black;
+        position: relative;
+        left: 50px;
+}
+.b{
+        background-color: lightblue;
+        color: rgb(15, 62, 48);
+        text-align: center;
+        font-family: verdana;
+        font-size: 20px;
+        position: relative;
+        top: 40px
+}
