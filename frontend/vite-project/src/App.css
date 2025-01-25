@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #1a1a2e;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #16213e, #0f3460);
+  color: #fff;
+  position: relative;
+}
+
+header .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 4px solid #00f2fe;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #b2bec3;
+}
+
+header .btn {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: #4facfe;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+header .btn:hover {
+  background: #00f2fe;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  background: #0f3460;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4facfe;
+  border-bottom: 2px solid #00f2fe;
+  display: inline-block;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+.section ul li::before {
+  content: '';
+  position: absolute;
+  left: -1.5rem;
+  top: 0.5rem;
+  width: 10px;
+  height: 10px;
+  background: #4facfe;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #16213e;
+  color: #b2bec3;
+  font-size: 0.9rem;
+  border-top: 1px solid #4facfe;
+}

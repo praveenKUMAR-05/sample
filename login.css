@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    height: 100vh;
+    align-items: center;
+    background-color: aquamarine;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    background-color: lightsalmon;
+}
+.error{
+    color: red;
+    margin-top: -8px;
+}
